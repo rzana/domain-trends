@@ -77,7 +77,7 @@ def _save_number_of_words(number_of_words: List[int]) -> None:
     plt.clf()
 
 
-def _average_chunks(data: List[int], size: int) -> Tuple[List[float], List[int]]:
+def _average_chunks(data: List[int], size: int) -> Tuple[List[int], List[float]]:
     steps, averages = [], []
 
     for i in range(len(data) // size):

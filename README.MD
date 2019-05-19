@@ -1,6 +1,10 @@
+### Overview
+
 Some people invest in cryptocurrency, others buy Rare Pepes, for me it's domains.
 
 I wanted to look for trends in the "top" 100k domains, to see if I find something interesting.
+
+### Solution
 
 Common Crawl provides a wonderful dataset for top ranking domains. It's not perfect, but it's good enough for this experiment.
 
