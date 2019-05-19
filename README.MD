@@ -1,4 +1,4 @@
-### Overview
+### Motivation
 
 Some people invest in cryptocurrency, others buy Rare Pepes, for me it's domains.
 
