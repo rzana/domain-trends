@@ -65,7 +65,7 @@ Here are the top 50 most common words in top ranking domains:
 
 Interesting! Although these areas may be saturated, you can always carve out a niche for yourself.
 
-About the domains..
+### About the domains..
 
 Obviously, the 1 word .com domains are all unavailable.
 
@@ -118,12 +118,14 @@ unigoogle.com
 
 Most of them are meh, but there are a few good ones, like googlemagazine.com, although I wouldn't buy it, because of potential trademark issues.
 
-Other interesting statistics
+### Other interesting statistics
 
 ![Name Length](name-length.png?raw=true "Name Length")
 
 ![Number of Words](number-of-words.png?raw=true "Number of Words")
 
+### Final words
+
 Of course, we only scratched the surface of the possibilites in this area, I've personally been experimenting with dozens - if not hundreds - of different ideas, looking for hidden gems in the domain marketplace.
 
-It's a fun space, and eventually, you will always find what you are looking for. Probably even something better. :)
+Eventually, you will always find what you are looking for. Probably even something better. :)
