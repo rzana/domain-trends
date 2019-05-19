@@ -120,9 +120,9 @@ Most of them are meh, but there are a few good ones, like googlemagazine.com, al
 
 Other interesting statistics
 
-[[https://github.com/rzana/domain-trends/blob/master/name-length.png]]
+![Name Length](name-length.png?raw=true "Name Length")
 
-[[https://github.com/rzana/domain-trends/blob/master/number-of-words.png]]
+![Number of Words](number-of-words.png?raw=true "Number of Words")
 
 Of course, we only scratched the surface of the possibilites in this area, I've personally been experimenting with dozens - if not hundreds - of different ideas, looking for hidden gems in the domain marketplace.
 
