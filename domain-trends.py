@@ -5,7 +5,7 @@ import wordninja
 
 from collections import Counter
 from matplotlib import pyplot as plt
-from typing import Generator, List
+from typing import Generator, List, Tuple
 
 
 DOMAIN_RANKS_URL = (
@@ -16,9 +16,7 @@ DOMAIN_RANKS_URL = (
 
 def analyze_trends() -> None:
     filestream = _get_filestream(DOMAIN_RANKS_URL)
-    word_counter = Counter()
-    name_lengths = []
-    number_of_words = []
+    word_counter, name_lengths, number_of_words = Counter(), [], []
 
     for line in csv.DictReader(_read_lines(filestream, 10**5), delimiter='\t'):
         name = line['#host_rev'].split('.')[-1]
@@ -60,27 +58,35 @@ def _save_word_count(word_counter: Counter) -> None:
 
 
 def _save_name_lengths(name_lengths: List[int]) -> None:
-    plt.plot(_average_chunks(name_lengths, 2000))
+    steps, averages = _average_chunks(name_lengths, 2000)
+    plt.plot(steps, averages)
     plt.title('Name Length')
+    plt.xlabel('domain rank')
+    plt.ylabel('characters')
     plt.savefig('name-length.png')
     plt.clf()
 
 
 def _save_number_of_words(number_of_words: List[int]) -> None:
-    plt.plot(_average_chunks(number_of_words, 2000))
+    steps, averages = _average_chunks(number_of_words, 2000)
+    plt.plot(steps, averages)
     plt.title('Number Of Words')
+    plt.xlabel('domain rank')
+    plt.ylabel('number of words')
     plt.savefig('number-of-words.png')
     plt.clf()
 
 
-def _average_chunks(data: List[int], size: int) -> List[float]:
-    result = []
+def _average_chunks(data: List[int], size: int) -> Tuple[List[float], List[int]]:
+    steps, averages = [], []
 
     for i in range(len(data) // size):
-        chunk = data[size*i:size*(i+1)]
-        result.append(sum(chunk) / len(chunk))
+        start = size * i
+        chunk = data[start:start+size]
+        steps.append(start)
+        averages.append(sum(chunk) / len(chunk))
 
-    return result
+    return steps, averages
 
 
 if __name__ == '__main__':
