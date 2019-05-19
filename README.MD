@@ -12,7 +12,7 @@ One of the challenges I bumped into was splitting domain names into meaningful w
 
 Also, as I didn't want to download GBs of data unnecesseraly, I created a solution for streaming and processing gzipped csv files on the fly.
 
-Here are the top 50 most common words in top ranking domains:
+Here are the 50 most common words in top ranking domains:
 
 ```
 2120 the
