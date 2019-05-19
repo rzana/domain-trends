@@ -69,7 +69,7 @@ About the domains..
 
 Obviously, the 1 word .com domains are all unavailable.
 
-What about the 2 word .com domains though? Out of 2450 possible permutations, 42 domains (1.71%)are actually available!
+What about the 2 word .com domains though? Out of 2450 possible permutations, 42 domains (1.71%) are actually available!
 
 ```
 andmuseum.com
@@ -116,10 +116,8 @@ timesthe.com
 unigoogle.com
 ```
 
-Most of them are meh, but there are a few good ones, like googlemagazine.com. I mean sounds good, but I obviously wouldn't buy it because of potential trademark issues.
+Most of them are meh, but there are a few good ones, like googlemagazine.com, but I obviously wouldn't buy it, because of potential trademark issues.
 
 Of course, we only scratched the surface of the possibilites in this area, I've personally been experimenting with dozens - if not hundreds - of different ideas, looking for hidden gems in the domain marketplace.
 
-It's fun, and open for everyone. A lovely place to develop new ideas and your skills.
-
-And, eventually, you will always find what you are looking for. Probably even something better. :)
+It's a fun space, and eventually, you will always find what you are looking for. Probably even something better. :)
